@@ -30,90 +30,165 @@ public class Ejercicio2_Vista extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jtCelsius = new javax.swing.JTextField();
+        jPanel1 = new javax.swing.JPanel();
         jbConvertir = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jtCelsius = new javax.swing.JTextField();
+        jBLimpiar = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jBConvertirF = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jTFar = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Convertidor de Celsius a Farenheit");
         setResizable(false);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setText("Convertidor de temperatura");
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jbConvertir.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jbConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/icons8-aprobar-y-actualizar-64 (1).png"))); // NOI18N
+        jbConvertir.setText("Convertir");
+        jbConvertir.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.lightGray, java.awt.Color.lightGray, java.awt.Color.darkGray, java.awt.Color.darkGray));
+        jbConvertir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbConvertirActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jbConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, 213, -1));
+
+        jLabel6.setBackground(java.awt.Color.white);
+        jLabel6.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jLabel6.setForeground(java.awt.Color.black);
+        jLabel6.setText("❄ Celsius ➔ Fahrenheit");
+        jLabel6.setToolTipText("");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 174, 20));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 357, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setForeground(java.awt.Color.black);
         jLabel2.setText("Ingrese los grados Celsius:");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, -1, -1));
+
+        jLabel1.setBackground(java.awt.Color.white);
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(java.awt.Color.black);
+        jLabel1.setText("Convertidor de temperatura");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 10, -1, -1));
 
         jtCelsius.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jtCelsiusActionPerformed(evt);
             }
         });
+        jPanel1.add(jtCelsius, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, 230, -1));
 
-        jbConvertir.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jbConvertir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/icons8-aprobar-y-actualizar-64 (1).png"))); // NOI18N
-        jbConvertir.setText("Convertir");
-        jbConvertir.addActionListener(new java.awt.event.ActionListener() {
+        jBLimpiar.setFont(new java.awt.Font("Tahoma", 1, 20)); // NOI18N
+        jBLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/escoba.png"))); // NOI18N
+        jBLimpiar.setText("Limpiar");
+        jBLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbConvertirActionPerformed(evt);
+                jBLimpiarActionPerformed(evt);
             }
         });
+        jPanel1.add(jBLimpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, -1, 40));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Downloads\\desktop-wallpaper-background-winter.jpg")); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 360));
+
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jBConvertirF.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jBConvertirF.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/icons8-aprobar-y-actualizar-48.png"))); // NOI18N
+        jBConvertirF.setText("Convertir");
+        jBConvertirF.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.lightGray, java.awt.Color.lightGray, java.awt.Color.darkGray, java.awt.Color.darkGray));
+        jBConvertirF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBConvertirFActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jBConvertirF, new org.netbeans.lib.awtextra.AbsoluteConstraints(263, 166, 213, 76));
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel3.setForeground(java.awt.Color.black);
+        jLabel3.setText("Ingrese los grados Fahrenheit:");
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(45, 90, -1, -1));
+
+        jTFar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTFarActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTFar, new org.netbeans.lib.awtextra.AbsoluteConstraints(263, 90, 230, -1));
+
+        jLabel4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
+        jLabel4.setForeground(java.awt.Color.black);
+        jLabel4.setText("🔥️ Fahrenheit ➔ Celsius");
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/7324481 (1).jpg"))); // NOI18N
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 690, 360));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(50, 50, 50)
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jtCelsius, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(101, 101, 101)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(149, 149, 149)
-                        .addComponent(jbConvertir, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(52, Short.MAX_VALUE))
+            .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(25, 25, 25)
-                .addComponent(jLabel1)
-                .addGap(69, 69, 69)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jtCelsius, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
-                .addComponent(jbConvertir)
-                .addGap(49, 49, 49))
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 351, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jBConvertirFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBConvertirFActionPerformed
+        try{
+        double far = Double.parseDouble(jTFar.getText());
+        double cel = (far - 32) * 5/9;
+        
+        JOptionPane.showMessageDialog(this, "En grados Celsius: " + cel+"°C");
+        }catch(NumberFormatException NFE){
+        JOptionPane.showMessageDialog(this, "Ingrese un número por favor");
+        }
+    }//GEN-LAST:event_jBConvertirFActionPerformed
+
+    private void jTFarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTFarActionPerformed
 
     private void jtCelsiusActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtCelsiusActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jtCelsiusActionPerformed
 
     private void jbConvertirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbConvertirActionPerformed
-        
+
         try {
-            double cel = Double.parseDouble(jtCelsius.getText()); 
+            double cel = Double.parseDouble(jtCelsius.getText());
             double far = cel * 9/5 + 32;
 
-            //ImageIcon img = new ImageIcon("Source_Packages/fondoRojo.jpg");
-
-            JOptionPane.showMessageDialog(this, "En grados Farenheit: "+far);
+            JOptionPane.showMessageDialog(this, "En grados Farenheit: "+far +"°F");
         } catch (NumberFormatException nf){
-             JOptionPane.showMessageDialog(this,"Ingrese un número por favor");
-            
+            JOptionPane.showMessageDialog(this,"Ingrese un número por favor");
+
         }
     }//GEN-LAST:event_jbConvertirActionPerformed
+
+    private void jBLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLimpiarActionPerformed
+        jtCelsius.setText("");
+        jTFar.setText("");
+    }//GEN-LAST:event_jBLimpiarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -151,8 +226,19 @@ public class Ejercicio2_Vista extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jBConvertirF;
+    private javax.swing.JButton jBLimpiar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JTextField jTFar;
     private javax.swing.JButton jbConvertir;
     private javax.swing.JTextField jtCelsius;
     // End of variables declaration//GEN-END:variables

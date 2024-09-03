@@ -99,7 +99,7 @@ public class Ejercicio2_Vista extends javax.swing.JFrame {
         });
         jPanel1.add(jBLimpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, -1, 40));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Downloads\\desktop-wallpaper-background-winter.jpg")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/desktop-wallpaper-background-winter.jpg"))); // NOI18N
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 360));
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());

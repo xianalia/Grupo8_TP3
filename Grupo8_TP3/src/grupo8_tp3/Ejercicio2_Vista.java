@@ -61,24 +61,21 @@ public class Ejercicio2_Vista extends javax.swing.JFrame {
                 jbConvertirActionPerformed(evt);
             }
         });
-        jPanel1.add(jbConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, 213, -1));
+        jPanel1.add(jbConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 213, -1));
 
         jLabel6.setBackground(java.awt.Color.white);
         jLabel6.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jLabel6.setForeground(java.awt.Color.black);
         jLabel6.setText("❄ Celsius ➔ Fahrenheit");
         jLabel6.setToolTipText("");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 174, 20));
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(361, 357, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setForeground(java.awt.Color.black);
         jLabel2.setText("Ingrese los grados Celsius:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, -1, -1));
 
         jLabel1.setBackground(java.awt.Color.white);
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(java.awt.Color.black);
         jLabel1.setText("Convertidor de temperatura");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 10, -1, -1));
 
@@ -98,8 +95,6 @@ public class Ejercicio2_Vista extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jBLimpiar, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, -1, 40));
-
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Administrator\\Downloads\\desktop-wallpaper-background-winter.jpg")); // NOI18N
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 690, 360));
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -116,7 +111,6 @@ public class Ejercicio2_Vista extends javax.swing.JFrame {
         jPanel2.add(jBConvertirF, new org.netbeans.lib.awtextra.AbsoluteConstraints(263, 166, 213, 76));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel3.setForeground(java.awt.Color.black);
         jLabel3.setText("Ingrese los grados Fahrenheit:");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(45, 90, -1, -1));
 
@@ -128,7 +122,6 @@ public class Ejercicio2_Vista extends javax.swing.JFrame {
         jPanel2.add(jTFar, new org.netbeans.lib.awtextra.AbsoluteConstraints(263, 90, 230, -1));
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jLabel4.setForeground(java.awt.Color.black);
         jLabel4.setText("🔥️ Fahrenheit ➔ Celsius");
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
